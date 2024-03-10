@@ -2,14 +2,22 @@
 *{
     background-color: aqua;
     font-style: italic;
-    font-size: small;
+    font-size: large;
     color: black;
+
 }
 /*tag selector*/
 h1{
     font-size: xx-large
 }
 
+.image {
+    width: 100ex;
+    height: auto;
+    padding-left: 50px;
+    filter: sepia(100%);
+    border-radius: 1000px;
+}
 h2{
    font-style: oblique;
    font-size: medium;
@@ -34,4 +42,9 @@ h5{
 .para1{
     color: brown;
     font-size: x-large;
+}
+.about{
+    display: flex;
+    list-style-type: upper-roman;
+    padding-right: 30px;
 }
